@@ -257,6 +257,6 @@ public class WindowedWordCount {
      * this via a ctrl-C from the command line, or from the developer's console UI for Dataflow
      * pipelines. The PubSub topic will also be deleted at this time.
      */
-    exampleDataflowUtils.mockUnboundedSource(options.getInputFile(), result);
+    //exampleDataflowUtils.mockUnboundedSource(options.getInputFile(), result);
   }
 }
